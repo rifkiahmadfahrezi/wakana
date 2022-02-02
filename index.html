@@ -114,6 +114,8 @@
       // if copy button clicked change inner text
       copyBtn.addEventListener('click', () => {
         copyBtn.innerText = 'Copied!'
+        // copy text result 
+        navigator.clipboard.writeText(kanaResult);
       })
 
       // run function convertTo if form submitted
@@ -132,9 +134,6 @@
         resultWrapper.classList.add('appear')
         resultWrapper.classList.remove('disappear')
         resultText.innerText = kanaResult;
-
-        // copy text result 
-        navigator.clipboard.writeText(kanaResult);
 
       })
 
