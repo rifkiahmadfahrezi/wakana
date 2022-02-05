@@ -12,3 +12,5 @@
 3. **Romaji**, convert your text/hiragana/katakana to Romaji
 4. **Auto Kana**, uppercase will convert to katakana and lowercase to hiragana
  > example WAkana = ワかな
+
+[Demo](https://wakana.surge.sh)
